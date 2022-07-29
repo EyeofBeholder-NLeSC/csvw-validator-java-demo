@@ -23,3 +23,20 @@ if (file.exists()) {
 }
 file.mkdir();
 ```
+
+## Expected results
+By importing this project to Eclipse as a Maven project and running it, the console output should looks like this:
+
+```console
+Metadata URL: https://w3c.github.io/csvw/tests/test011/tree-ops.csv-metadata.json
+Result: PASSED
+Strict mode: false
+Total errors: 0
+Warning errors: 0
+Error errors: 0
+Fatal errors: 0
+Processed tables: 1
+Processed rows: 3
+Processed columns: 5
+Errors:
+```
