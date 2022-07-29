@@ -2,7 +2,7 @@
 This is a demo project to show how to use the [csvw-validator](https://github.com/malyvoj3/csvw-validator) tool as a library. Dependency management is done by using Maven.
 
 ## Tips to make the code work
-1. Specify the version of spring to 5.1.12 to include all the required methods.
+1. Specify the version of Spring to 5.1.12 to include all the required methods.
 2. Use an old version (recommond 3.5) of org-apache-commons-lang3 by adding the following code to `pom.xml`:
 ```
 <dependency>
