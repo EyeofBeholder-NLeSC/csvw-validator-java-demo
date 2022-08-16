@@ -28,21 +28,18 @@
          "tableSchema":{
             "columns":[
                {
+                  "name":"unit_id",
+                  "titles":"unit_id",
+                  "dc:description":"An identifier for the crowdsourcing worker.",
+                  "required":true
+               }, 
+               {
                   "name":"age_range",
-                  "valueUrl":"http://example.org/IPM_worker_profile.csv/age_range/{#q_0_age_answer}"
+                  "titles":"age_range" 
                },
                {
                   "name":"political_view",
-                  "valueUrl":"http://example.org/IPM_worker_profile.csv/political_view/{#q_0_political_views_answer}"
-               },
-               {
-                  "name":"unit_id",
-                  "titles":[
-                     "unit_id"
-                  ],
-                  "dc:description":"An identifier for the crowdsourcing worker.",
-                  "datatype":"string",
-                  "required":true
+                  "titles":"political_view" 
                }
             ],
             "primaryKey":"unit_id"
@@ -54,25 +51,22 @@
             "columns":[
                {
                   "name":"unit_id",
-                  "titles":[
-                     "unit_id",
-                     "Unit_ID"
-                  ],
+                  "titles":"unit_id",
                   "dc:description":"An identifier for the crowdsourcing worker.",
                   "datatype":"string",
                   "required":true
                },
                {
-                  "name":"doc_overall-truthfulness_value",
-                  "titles":"Overall Truthfulness",
+                  "name":"overall_truthfulness", 
+                  "titles":"doc_overall-truthfulness_value",
                   "dc:description":"Overall truthfulness",
-                  "datatype":"integer"
+                  "datatype":"float"
                },
                {
-                  "name":"doc_correctness_value",
-                  "titles":"Correctness",
+                  "name":"correctness",
+                  "titles":"doc_correctness_value",
                   "dc:description":"Correctness",
-                  "datatype":"integer"
+                  "datatype":"float"
                }
             ],
             "foreignKeys":[

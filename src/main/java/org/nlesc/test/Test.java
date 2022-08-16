@@ -32,7 +32,8 @@ public class Test {
 	
 		// validate the tree-op test case
 		// String schemaAbsoluteUrl = "https://w3c.github.io/csvw/tests/test011/tree-ops.csv-metadata.json";
-		String schemaAbsoluteUrl = "https://github.com/EyeofBeholder-NLeSC/csvw-validator-java-demo/blob/main/csv-metadata.json";
+		// String schemaAbsoluteUrl = "https://github.com/EyeofBeholder-NLeSC/csvw-validator-java-demo/blob/main/csv-metadata.json";
+		String schemaAbsoluteUrl = "csv-metadata.json";
 		String result = Test.validate(null, schemaAbsoluteUrl, true);
 		System.out.println(result);
 	}
