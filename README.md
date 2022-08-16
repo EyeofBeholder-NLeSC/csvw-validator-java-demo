@@ -24,7 +24,9 @@ if (file.exists()) {
 file.mkdir();
 ```
 
-## Expected results
+## Input and expected output
+This demo has a default input that is specified in the code (the main method). The input is the [tree-ops example](https://w3c.github.io/csvw/tests/test011/tree-ops.csv-metadata.json) on the [CSVW TEST CASES website](https://w3c.github.io/csvw/tests/)]. 
+
 By importing this project to Eclipse as a Maven project and running it, the console output should looks like this:
 
 ```console
