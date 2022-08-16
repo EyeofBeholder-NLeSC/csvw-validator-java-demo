@@ -1,0 +1,62 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix doap:  <http://usefulinc.com/ns/doap#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix earl:  <http://www.w3.org/ns/earl#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<https://github.com/malyvoj3/csvw-validator#fatal>
+        a               earl:Fail ;
+        dc:description  "Failed which caused stopping of validating"@en ;
+        dc:title        "Fatal"@en .
+
+[ earl:assertedBy  <https://github.com/malyvoj3/csvw-validator> ;
+  earl:result      [ a               earl:TestResult ;
+                     dc:date         "2022-08-16T08:18:21.243Z"^^xsd:dateTime ;
+                     dc:description  "Summary result of validation by csvw-validator."@en ;
+                     dc:title        "Validation result"@en ;
+                     earl:mode       earl:automatic ;
+                     earl:outcome    earl:passed
+                   ] ;
+  earl:subject     <https://github.com/malyvoj3/csvw-validator> ;
+  earl:test        <https://w3c.github.io/csvw/tests/test011/tree-ops.csv-metadata.json>
+] .
+
+<https://github.com/malyvoj3/csvw-validator#warning>
+        a               earl:Pass ;
+        dc:description  "Warning"@en ;
+        dc:title        "Warning"@en .
+
+<https://github.com/malyvoj3/csvw-validator>
+        a                   earl:Software , earl:TestSubject , earl:Assertor , doap:Project ;
+        dc:creator          <https://github.com/malyvoj3> ;
+        dc:description      "Java implementation of the W3C CSV on the Web validator."@en ;
+        dc:title            "csvw-validator"@en ;
+        doap:bug-database   <https://github.com/malyvoj3/csvw-validator/issues> ;
+        doap:description    "Java implementation of the W3C CSV on the Web validator."@en ;
+        doap:developer      <https://github.com/malyvoj3> ;
+        doap:documenter     <https://github.com/malyvoj3> ;
+        doap:download-page  <https://github.com/malyvoj3/csvw-validator> ;
+        doap:homepage       <https://github.com/malyvoj3/csvw-validator> ;
+        doap:implements     <http://www.w3.org/TR/tabular-data-model/> , <http://www.w3.org/TR/tabular-metadata/> ;
+        doap:license        <https://choosealicense.com/licenses/mit/> ;
+        doap:maintainer     <https://github.com/malyvoj3> ;
+        doap:name           "csvw-validator"@en ;
+        foaf:maker          <https://github.com/malyvoj3> .
+
+<https://github.com/malyvoj3>
+        a              foaf:Person ;
+        foaf:homepage  <https://github.com/malyvoj3> ;
+        foaf:name      "Vojtech Maly" ;
+        foaf:title     "Implementor"@en .
+
+<https://github.com/malyvoj3/csvw-validator#strict-warning>
+        a               earl:Pass ;
+        dc:description  "Warning in strict mode"@en ;
+        dc:title        "Strict warning"@en .
+
+<https://github.com/malyvoj3/csvw-validator#strict-mode>
+        a               earl:TestMode ;
+        dc:description  "This mode enables STRICT_WARNING, which validates format of CSV againt RFC 4180"@en ;
+        dc:title        "Strict mode"@en .

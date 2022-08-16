@@ -16,7 +16,7 @@ import java.io.IOException;
 
 public class Test {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException{
 		// tmp directory to download the csv file
 		// otherwise the file won't be downloaded by apache-commons
 		
@@ -36,12 +36,13 @@ public class Test {
 		System.out.println(result);
 	}
 
-	private static String validate(String fileUrl, String schemaUrl, boolean isNotStrict) {
+	private static String validate(String fileUrl, String schemaUrl, boolean isNotStrict) throws IOException {
 
 		// Initialize csvw processor using Spring
 		ApplicationContext ctx = new AnnotationConfigApplicationContext(ProcessorConfig.class);
 		CsvwProcessor csvwProcessor = ctx.getBean(CsvwProcessor.class);
 		TextResultWriter textWriter = ctx.getBean(TextResultWriter.class);
+		RdfResultWriter rdfWriter = ctx.getBean(RdfResultWriter.class);
 		
 		// Call different processors depending on different input
 		ProcessingResult processingResult = null;
@@ -60,6 +61,8 @@ public class Test {
 		
 		// return string result
 		byte[] textResult = textWriter.writeResult(processingResult);
+		byte[] rdfResult = rdfWriter.writeResult(processingResult);
+		FileUtils.writeByteArrayToFile(new File("rdf_result.ttl"), rdfResult);
 		String result = new String(textResult);
 		return result;
 	}
