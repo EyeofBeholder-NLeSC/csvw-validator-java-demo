@@ -5,7 +5,6 @@
          "@language":"en"
       }
    ],
-   "url":"IPM_assessment.csv",
    "dc:title":"Crowdsourced Information Quality Assessments",
    "dcat:keyword":[
       "information quality"
@@ -87,6 +86,5 @@
             "primaryKey":"unit_id"
          }
       }
-   ],
-   "aboutUrl":"#unit_id-{unit_id}"
+   ]
 }

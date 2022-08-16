@@ -32,7 +32,7 @@ public class Test {
 	
 		// validate the tree-op test case
 		// String schemaAbsoluteUrl = "https://w3c.github.io/csvw/tests/test011/tree-ops.csv-metadata.json";
-		String schemaAbsoluteUrl = "https://github.com/EyeofBeholder-NLeSC/assessments-ontology/blob/fix-metadata/metadata.json";
+		String schemaAbsoluteUrl = "https://github.com/EyeofBeholder-NLeSC/csvw-validator-java-demo/blob/main/csv-metadata.json";
 		String result = Test.validate(null, schemaAbsoluteUrl, true);
 		System.out.println(result);
 	}
@@ -62,8 +62,8 @@ public class Test {
 		
 		// return string result
 		byte[] textResult = textWriter.writeResult(processingResult);
-		byte[] rdfResult = rdfWriter.writeResult(processingResult);
-		FileUtils.writeByteArrayToFile(new File("rdf_result.ttl"), rdfResult);
+//		byte[] rdfResult = rdfWriter.writeResult(processingResult);
+//		FileUtils.writeByteArrayToFile(new File("rdf_result.ttl"), rdfResult);
 		String result = new String(textResult);
 		return result;
 	}

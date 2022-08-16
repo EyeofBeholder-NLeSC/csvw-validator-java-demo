@@ -16,6 +16,24 @@
         dc:description  "Warning"@en ;
         dc:title        "Warning"@en .
 
+[ earl:assertedBy  <https://github.com/malyvoj3/csvw-validator> ;
+  earl:result      [ a             earl:TestResult ;
+                     dc:date       "2022-08-16T09:07:19.393Z"^^xsd:dateTime ;
+                     earl:info     "Error during parsing JSON-LD descriptor https://github.com/EyeofBeholder-NLeSC/csvw-validator-java-demo/blob/main/metadata.json."@en ;
+                     earl:mode     earl:automatic ;
+                     earl:outcome  <https://github.com/malyvoj3/csvw-validator#fatal>
+                   ] ;
+  earl:result      [ a               earl:TestResult ;
+                     dc:date         "2022-08-16T09:07:19.393Z"^^xsd:dateTime ;
+                     dc:description  "Summary result of validation by csvw-validator."@en ;
+                     dc:title        "Validation result"@en ;
+                     earl:mode       earl:automatic ;
+                     earl:outcome    earl:failed
+                   ] ;
+  earl:subject     <https://github.com/malyvoj3/csvw-validator> ;
+  earl:test        <https://github.com/EyeofBeholder-NLeSC/csvw-validator-java-demo/blob/main/metadata.json>
+] .
+
 <https://github.com/malyvoj3/csvw-validator>
         a                   earl:Software , earl:TestSubject , earl:Assertor , doap:Project ;
         dc:creator          <https://github.com/malyvoj3> ;
@@ -32,24 +50,6 @@
         doap:maintainer     <https://github.com/malyvoj3> ;
         doap:name           "csvw-validator"@en ;
         foaf:maker          <https://github.com/malyvoj3> .
-
-[ earl:assertedBy  <https://github.com/malyvoj3/csvw-validator> ;
-  earl:result      [ a             earl:TestResult ;
-                     dc:date       "2022-08-16T08:51:37.769Z"^^xsd:dateTime ;
-                     earl:info     "Error during parsing JSON-LD descriptor https://github.com/EyeofBeholder-NLeSC/assessments-ontology/blob/fix-metadata/metadata.json."@en ;
-                     earl:mode     earl:automatic ;
-                     earl:outcome  <https://github.com/malyvoj3/csvw-validator#fatal>
-                   ] ;
-  earl:result      [ a               earl:TestResult ;
-                     dc:date         "2022-08-16T08:51:37.768Z"^^xsd:dateTime ;
-                     dc:description  "Summary result of validation by csvw-validator."@en ;
-                     dc:title        "Validation result"@en ;
-                     earl:mode       earl:automatic ;
-                     earl:outcome    earl:failed
-                   ] ;
-  earl:subject     <https://github.com/malyvoj3/csvw-validator> ;
-  earl:test        <https://github.com/EyeofBeholder-NLeSC/assessments-ontology/blob/fix-metadata/metadata.json>
-] .
 
 <https://github.com/malyvoj3>
         a              foaf:Person ;
