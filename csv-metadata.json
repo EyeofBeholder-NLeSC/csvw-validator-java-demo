@@ -24,7 +24,7 @@
    },
    "tables":[
       {
-         "url":"https://github.com/EyeofBeholder-NLeSC/csvw-validator-java-demo/blob/main/IPM_worker_profile.csv",
+         "url":"IPM_worker_profile.csv",
          "tableSchema":{
             "columns":[
                {
@@ -49,7 +49,7 @@
          }
       },
       {
-         "url":"https://github.com/EyeofBeholder-NLeSC/csvw-validator-java-demo/blob/main/IPM_assessment.csv",
+         "url":"IPM_assessment.csv",
          "tableSchema":{
             "columns":[
                {
@@ -79,7 +79,7 @@
                {
                   "columnReference":"unit_id",
                   "reference":{
-                     "resource":"https://github.com/EyeofBeholder-NLeSC/csvw-validator-java-demo/blob/main/IPM_worker_profile.csv",
+                     "resource":"IPM_worker_profile.csv",
                      "columnReference":"unit_id"
                   }
                }
