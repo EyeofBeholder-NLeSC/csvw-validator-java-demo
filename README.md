@@ -40,3 +40,5 @@ Processed rows: 3
 Processed columns: 5
 Errors:
 ```
+
+Also, a file called `rdf_result.ttl` will be generated at the root folder. This is the result of converting the input data file into linked data format (.ttl) based on the metadata information.
