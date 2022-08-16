@@ -1,0 +1,201 @@
+unit_id,age_range,political_view
+unit_1,26-35,Very liberal
+unit_3,26-35,Liberal
+unit_5,26-35,Very liberal
+unit_7,50-80,Very liberal
+unit_9,19-25,Moderate
+unit_11,36-50,Liberal
+unit_13,26-35,Conservative
+unit_15,50-80,Liberal
+unit_17,36-50,Very conservative
+unit_19,26-35,Very liberal
+unit_21,26-35,Liberal
+unit_23,36-50,Very conservative
+unit_25,26-35,Conservative
+unit_27,26-35,Moderate
+unit_29,36-50,Conservative
+unit_31,19-25,Liberal
+unit_33,36-50,Very conservative
+unit_35,50-80,Conservative
+unit_37,36-50,Very liberal
+unit_39,36-50,Conservative
+unit_41,36-50,Conservative
+unit_43,26-35,Very liberal
+unit_45,36-50,Liberal
+unit_47,50-80,Liberal
+unit_49,36-50,Liberal
+unit_51,26-35,Conservative
+unit_53,26-35,Very liberal
+unit_55,26-35,Very liberal
+unit_57,36-50,Liberal
+unit_59,26-35,Moderate
+unit_61,19-25,Liberal
+unit_63,19-25,Liberal
+unit_65,19-25,Liberal
+unit_67,36-50,Liberal
+unit_69,36-50,Conservative
+unit_71,26-35,Very conservative
+unit_73,26-35,Very conservative
+unit_75,19-25,Conservative
+unit_77,36-50,Moderate
+unit_79,26-35,Moderate
+unit_81,50-80,Conservative
+unit_83,19-25,Moderate
+unit_85,50-80,Moderate
+unit_87,36-50,Very conservative
+unit_89,26-35,Moderate
+unit_91,26-35,Moderate
+unit_93,26-35,Liberal
+unit_95,26-35,Moderate
+unit_97,26-35,Very liberal
+unit_99,26-35,Liberal
+unit_101,19-25,Moderate
+unit_103,36-50,Very liberal
+unit_105,19-25,Liberal
+unit_107,19-25,Moderate
+unit_109,26-35,Very liberal
+unit_111,26-35,Very liberal
+unit_113,36-50,Moderate
+unit_115,26-35,Very liberal
+unit_117,19-25,Very liberal
+unit_119,26-35,Very conservative
+unit_121,19-25,Moderate
+unit_123,26-35,Liberal
+unit_125,26-35,Very liberal
+unit_127,36-50,Conservative
+unit_129,19-25,Liberal
+unit_131,19-25,Moderate
+unit_133,19-25,Liberal
+unit_135,19-25,Liberal
+unit_137,19-25,Moderate
+unit_139,26-35,Very liberal
+unit_141,19-25,Liberal
+unit_143,36-50,Moderate
+unit_145,19-25,Moderate
+unit_147,36-50,Liberal
+unit_149,26-35,Liberal
+unit_151,26-35,Liberal
+unit_153,26-35,Conservative
+unit_155,26-35,Liberal
+unit_157,19-25,Very conservative
+unit_159,26-35,Moderate
+unit_161,36-50,Moderate
+unit_163,26-35,Moderate
+unit_165,50-80,Moderate
+unit_167,36-50,Liberal
+unit_169,26-35,Liberal
+unit_171,26-35,Conservative
+unit_173,19-25,Very conservative
+unit_175,26-35,Very conservative
+unit_177,26-35,Very liberal
+unit_179,36-50,Liberal
+unit_181,26-35,Liberal
+unit_183,50-80,Liberal
+unit_185,26-35,Moderate
+unit_187,26-35,Liberal
+unit_189,19-25,Liberal
+unit_191,26-35,Very liberal
+unit_193,26-35,Liberal
+unit_195,26-35,Liberal
+unit_197,26-35,Very conservative
+unit_199,26-35,Very liberal
+unit_0,36-50,Moderate
+unit_4,36-50,Moderate
+unit_6,26-35,Conservative
+unit_8,36-50,Conservative
+unit_10,26-35,Liberal
+unit_12,36-50,Liberal
+unit_14,36-50,Liberal
+unit_16,26-35,Conservative
+unit_18,36-50,Liberal
+unit_20,19-25,Conservative
+unit_22,26-35,Liberal
+unit_24,26-35,Conservative
+unit_26,19-25,Liberal
+unit_28,36-50,Very liberal
+unit_30,36-50,Conservative
+unit_32,19-25,Moderate
+unit_34,19-25,Liberal
+unit_36,36-50,Moderate
+unit_38,26-35,Conservative
+unit_40,36-50,Very liberal
+unit_42,26-35,Liberal
+unit_44,26-35,Conservative
+unit_46,19-25,Moderate
+unit_48,36-50,Liberal
+unit_50,19-25,Moderate
+unit_52,19-25,Conservative
+unit_54,36-50,Liberal
+unit_56,36-50,Very liberal
+unit_58,26-35,Conservative
+unit_60,36-50,Very liberal
+unit_62,36-50,Conservative
+unit_64,26-35,Conservative
+unit_66,36-50,Liberal
+unit_68,26-35,Moderate
+unit_70,36-50,Very conservative
+unit_72,26-35,Liberal
+unit_74,26-35,Liberal
+unit_76,26-35,Very conservative
+unit_78,26-35,Liberal
+unit_80,26-35,Moderate
+unit_82,26-35,Very liberal
+unit_84,26-35,Very liberal
+unit_86,26-35,Very conservative
+unit_88,26-35,Conservative
+unit_90,26-35,Conservative
+unit_92,26-35,Moderate
+unit_94,26-35,Very conservative
+unit_96,19-25,Moderate
+unit_98,26-35,Liberal
+unit_100,19-25,Liberal
+unit_102,36-50,Very conservative
+unit_104,19-25,Very liberal
+unit_106,26-35,Very liberal
+unit_108,19-25,Moderate
+unit_110,36-50,Very liberal
+unit_112,19-25,Liberal
+unit_114,26-35,Moderate
+unit_116,26-35,Very conservative
+unit_118,36-50,Liberal
+unit_120,26-35,Moderate
+unit_122,26-35,Very conservative
+unit_124,26-35,Liberal
+unit_126,26-35,Conservative
+unit_128,36-50,Very liberal
+unit_130,19-25,Conservative
+unit_132,50-80,Liberal
+unit_134,26-35,Moderate
+unit_136,26-35,Very liberal
+unit_138,36-50,Very conservative
+unit_140,19-25,Liberal
+unit_142,50-80,Very conservative
+unit_144,36-50,Liberal
+unit_146,26-35,Moderate
+unit_148,26-35,Very conservative
+unit_150,26-35,Moderate
+unit_152,19-25,Conservative
+unit_154,19-25,Liberal
+unit_158,26-35,Conservative
+unit_160,26-35,Very liberal
+unit_162,26-35,Liberal
+unit_164,26-35,Liberal
+unit_166,50-80,Liberal
+unit_170,26-35,Liberal
+unit_172,19-25,Liberal
+unit_174,26-35,Liberal
+unit_176,50-80,Conservative
+unit_178,26-35,Moderate
+unit_180,26-35,Moderate
+unit_182,26-35,Liberal
+unit_184,19-25,Moderate
+unit_186,26-35,Moderate
+unit_188,50-80,Very conservative
+unit_190,26-35,Liberal
+unit_192,26-35,Very conservative
+unit_194,50-80,Very conservative
+unit_196,36-50,Moderate
+unit_198,36-50,Liberal
+unit_2,19-25,Conservative
+unit_168,19-25,Very liberal
+unit_156,36-50,Moderate

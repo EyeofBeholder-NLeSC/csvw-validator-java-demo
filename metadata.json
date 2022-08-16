@@ -1,0 +1,92 @@
+{
+   "@context":[
+      "http://www.w3.org/ns/csvw",
+      {
+         "@language":"en"
+      }
+   ],
+   "url":"IPM_assessment.csv",
+   "dc:title":"Crowdsourced Information Quality Assessments",
+   "dcat:keyword":[
+      "information quality"
+   ],
+   "dc:publisher":{
+      "schema:name":"Eye of the Beholder",
+      "schema:url":{
+         "@id":"http://example.org"
+      }
+   },
+   "dc:license":{
+      "@id":"http://opendefinition.org/licenses/cc-by/"
+   },
+   "dc:modified":{
+      "@value":"2022-07-29",
+      "@type":"xsd:date"
+   },
+   "tables":[
+      {
+         "url":"IPM_assessment.csv",
+         "tableSchema":{
+            "columns":[
+               {
+                  "name":"unit_id",
+                  "titles":[
+                     "unit_id",
+                     "Unit_ID"
+                  ],
+                  "dc:description":"An identifier for the crowdsourcing worker.",
+                  "datatype":"string",
+                  "required":true
+               },
+               {
+                  "name":"doc_overall-truthfulness_value",
+                  "titles":"Overall Truthfulness",
+                  "dc:description":"Overall truthfulness",
+                  "datatype":"integer"
+               },
+               {
+                  "name":"doc_correctness_value",
+                  "titles":"Correctness",
+                  "dc:description":"Correctness",
+                  "datatype":"integer"
+               }
+            ],
+            "foreignKeys":[
+               {
+                  "columnReference":"unit_id",
+                  "reference":{
+                     "resource":"IPM_worker_profile.csv",
+                     "columnReference":"unit_id"
+                  }
+               }
+            ]
+         }
+      },
+      {
+         "url":"IPM_worker_profile.csv",
+         "tableSchema":{
+            "columns":[
+               {
+                  "name":"age_range",
+                  "valueUrl":"http://example.org/IPM_worker_profile.csv/age_range/{#q_0_age_answer}"
+               },
+               {
+                  "name":"political_view",
+                  "valueUrl":"http://example.org/IPM_worker_profile.csv/political_view/{#q_0_political_views_answer}"
+               },
+               {
+                  "name":"unit_id",
+                  "titles":[
+                     "unit_id"
+                  ],
+                  "dc:description":"An identifier for the crowdsourcing worker.",
+                  "datatype":"string",
+                  "required":true
+               }
+            ],
+            "primaryKey":"unit_id"
+         }
+      }
+   ],
+   "aboutUrl":"#unit_id-{unit_id}"
+}

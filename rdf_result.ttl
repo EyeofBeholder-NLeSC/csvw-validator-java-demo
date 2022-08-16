@@ -11,18 +11,6 @@
         dc:description  "Failed which caused stopping of validating"@en ;
         dc:title        "Fatal"@en .
 
-[ earl:assertedBy  <https://github.com/malyvoj3/csvw-validator> ;
-  earl:result      [ a               earl:TestResult ;
-                     dc:date         "2022-08-16T08:18:21.243Z"^^xsd:dateTime ;
-                     dc:description  "Summary result of validation by csvw-validator."@en ;
-                     dc:title        "Validation result"@en ;
-                     earl:mode       earl:automatic ;
-                     earl:outcome    earl:passed
-                   ] ;
-  earl:subject     <https://github.com/malyvoj3/csvw-validator> ;
-  earl:test        <https://w3c.github.io/csvw/tests/test011/tree-ops.csv-metadata.json>
-] .
-
 <https://github.com/malyvoj3/csvw-validator#warning>
         a               earl:Pass ;
         dc:description  "Warning"@en ;
@@ -44,6 +32,24 @@
         doap:maintainer     <https://github.com/malyvoj3> ;
         doap:name           "csvw-validator"@en ;
         foaf:maker          <https://github.com/malyvoj3> .
+
+[ earl:assertedBy  <https://github.com/malyvoj3/csvw-validator> ;
+  earl:result      [ a             earl:TestResult ;
+                     dc:date       "2022-08-16T08:51:37.769Z"^^xsd:dateTime ;
+                     earl:info     "Error during parsing JSON-LD descriptor https://github.com/EyeofBeholder-NLeSC/assessments-ontology/blob/fix-metadata/metadata.json."@en ;
+                     earl:mode     earl:automatic ;
+                     earl:outcome  <https://github.com/malyvoj3/csvw-validator#fatal>
+                   ] ;
+  earl:result      [ a               earl:TestResult ;
+                     dc:date         "2022-08-16T08:51:37.768Z"^^xsd:dateTime ;
+                     dc:description  "Summary result of validation by csvw-validator."@en ;
+                     dc:title        "Validation result"@en ;
+                     earl:mode       earl:automatic ;
+                     earl:outcome    earl:failed
+                   ] ;
+  earl:subject     <https://github.com/malyvoj3/csvw-validator> ;
+  earl:test        <https://github.com/EyeofBeholder-NLeSC/assessments-ontology/blob/fix-metadata/metadata.json>
+] .
 
 <https://github.com/malyvoj3>
         a              foaf:Person ;
