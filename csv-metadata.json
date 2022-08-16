@@ -5,6 +5,23 @@
          "@language":"en"
       }
    ],
+   "dc:title":"Crowdsourced Information Quality Assessments",
+   "dcat:keyword":[
+      "information quality"
+   ],
+   "dc:publisher":{
+      "schema:name":"Eye of the Beholder",
+      "schema:url":{
+         "@id":"http://example.org"
+      }
+   },
+   "dc:license":{
+      "@id":"http://opendefinition.org/licenses/cc-by/"
+   },
+   "dc:modified":{
+      "@value":"2022-07-29",
+      "@type":"xsd:date"
+   },
    "tables":[
       {
          "url":"https://github.com/EyeofBeholder-NLeSC/csvw-validator-java-demo/blob/main/IPM_worker_profile.csv",
