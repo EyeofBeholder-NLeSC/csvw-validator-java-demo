@@ -23,6 +23,11 @@ if (file.exists()) {
 }
 file.mkdir();
 ```
+4. To download all the dependencies, go to the project folder in terminal and run the following Maven commond
+```shell
+mvn install dependency:copy-dependencies
+```
+Then all the JAR files will be downloaded to `./target/dependency/` folder.
 
 ## Input and expected output
 This demo has a default input that is specified in the code (the main method). The input is the [tree-ops example](https://w3c.github.io/csvw/tests/test011/tree-ops.csv-metadata.json) on the [CSVW TEST CASES website](https://w3c.github.io/csvw/tests/)]. 
